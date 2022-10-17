@@ -40,7 +40,7 @@ const MixedWidget2: React.FC<Props> = ({className, chartColor, chartHeight, stro
     <div className={`card ${className}`}>
       {/* begin::Header */}
       <div className={`card-header border-0 py-5 bg-${chartColor}`}>
-        <h3 className='card-title fw-bolder text-white'>Sales Statistics</h3>
+        <h3 className='card-title fw-bolder text-white'>系统历史数据</h3>
         <div className='card-toolbar'>
           {/* begin::Menu */}
           <button
@@ -76,7 +76,7 @@ const MixedWidget2: React.FC<Props> = ({className, chartColor, chartHeight, stro
                 className='svg-icon-3x svg-icon-warning d-block my-2'
               />
               <a href='#' className='text-warning fw-bold fs-6'>
-                Weekly Sales
+                最近升级
               </a>
             </div>
             {/* end::Col */}
@@ -87,7 +87,7 @@ const MixedWidget2: React.FC<Props> = ({className, chartColor, chartHeight, stro
                 className='svg-icon-3x svg-icon-primary d-block my-2'
               />
               <a href='#' className='text-primary fw-bold fs-6'>
-                New Users
+                新用户数
               </a>
             </div>
             {/* end::Col */}
@@ -102,7 +102,7 @@ const MixedWidget2: React.FC<Props> = ({className, chartColor, chartHeight, stro
                 className='svg-icon-3x svg-icon-danger d-block my-2'
               />
               <a href='#' className='text-danger fw-bold fs-6 mt-2'>
-                Item Orders
+                最近预测
               </a>
             </div>
             {/* end::Col */}
@@ -113,7 +113,7 @@ const MixedWidget2: React.FC<Props> = ({className, chartColor, chartHeight, stro
                 className='svg-icon-3x svg-icon-success d-block my-2'
               />
               <a href='#' className='text-success fw-bold fs-6 mt-2'>
-                Bug Reports
+                BUG提交
               </a>
             </div>
             {/* end::Col */}

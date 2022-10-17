@@ -27,6 +27,47 @@ export function AsideMenuMain() {
       </div>
       <AsideMenuItemWithSub
         to='/crafted/pages'
+        title='数据集'
+        fontIcon='bi-archive'
+        icon='/media/icons/duotune/general/gen022.svg'
+      >
+      </AsideMenuItemWithSub>
+
+      <AsideMenuItemWithSub
+        to='/crafted/pages'
+        title='开始预测'
+        fontIcon='bi-archive'
+        icon='/media/icons/duotune/communication/com001.svg'
+      >
+      </AsideMenuItemWithSub>
+
+      <AsideMenuItemWithSub
+        to='/crafted/pages'
+        title='预测设置'
+        fontIcon='bi-archive'
+        icon='/media/icons/duotune/coding/cod001.svg'
+      >
+      </AsideMenuItemWithSub>
+
+      <AsideMenuItemWithSub
+        to='/crafted/pages'
+        title='预测比较'
+        fontIcon='bi-archive'
+        icon='/media/icons/duotune/graphs/gra004.svg'
+      >
+      </AsideMenuItemWithSub>
+
+      <AsideMenuItemWithSub
+        to='/crafted/pages'
+        title='历史预测'
+        fontIcon='bi-archive'
+        icon='/media/icons/duotune/files/fil001.svg'
+      >
+      </AsideMenuItemWithSub>
+
+      {/*
+      <AsideMenuItemWithSub
+        to='/crafted/pages'
         title='Pages'
         fontIcon='bi-archive'
         icon='/media/icons/duotune/general/gen022.svg'
@@ -83,6 +124,7 @@ export function AsideMenuMain() {
         <AsideMenuItem to='/crafted/widgets/tables' title='Tables' hasBullet={true} />
         <AsideMenuItem to='/crafted/widgets/feeds' title='Feeds' hasBullet={true} />
       </AsideMenuItemWithSub>
+      */}
       <div className='menu-item'>
         <div className='menu-content pt-8 pb-2'>
           <span className='menu-section text-muted text-uppercase fs-8 ls-1'>Apps</span>

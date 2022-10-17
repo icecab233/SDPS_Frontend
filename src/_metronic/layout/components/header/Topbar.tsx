@@ -58,26 +58,6 @@ const Topbar: FC = () => {
         {/* end::Menu wrapper */}
       </div>
 
-      {/* CHAT */}
-      <div className={clsx('d-flex align-items-center', toolbarButtonMarginClass)}>
-        {/* begin::Menu wrapper */}
-        <div
-          className={clsx(
-            'btn btn-icon btn-active-light-primary btn-custom position-relative',
-            toolbarButtonHeightClass
-          )}
-          id='kt_drawer_chat_toggle'
-        >
-          <KTSVG
-            path='/media/icons/duotune/communication/com012.svg'
-            className={toolbarButtonIconSizeClass}
-          />
-
-          <span className='bullet bullet-dot bg-success h-6px w-6px position-absolute translate-middle top-0 start-50 animation-blink'></span>
-        </div>
-        {/* end::Menu wrapper */}
-      </div>
-
       {/* Quick links */}
       <div className={clsx('d-flex align-items-center', toolbarButtonMarginClass)}>
         {/* begin::Menu wrapper */}
