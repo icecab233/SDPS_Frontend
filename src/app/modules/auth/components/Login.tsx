@@ -74,17 +74,7 @@ export function Login() {
       </div>
       {/* begin::Heading */}
 
-      {formik.status ? (
-        <div className='mb-lg-15 alert alert-danger'>
-          <div className='alert-text font-weight-bold'>{formik.status}</div>
-        </div>
-      ) : (
-        <div className='mb-10 bg-light-info p-8 rounded'>
-          <div className='text-info'>
-            测试账户，账号 <strong>admin@demo.com</strong> 密码 <strong>demo</strong>
-          </div>
-        </div>
-      )}
+
 
       {/* begin::Form group */}
       <div className='fv-row mb-10'>
